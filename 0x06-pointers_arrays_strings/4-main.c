@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 /**
+ * print_array - displays array
  * main - check the code
  * @a: an array of integers
  * @n: the number of elements to swap
@@ -21,7 +22,7 @@ void print_array(int *a, int n)
 		}
 		printf("%d", a[i]);
 		i++;
-    		}
+		}
 		printf("\n");
 }
 

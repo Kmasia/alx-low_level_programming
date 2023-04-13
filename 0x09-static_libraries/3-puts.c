@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * _puts - output funtion
+ * @s: parameter
+ */
+
 void _puts(char *s)
 {
 	puts(s);
